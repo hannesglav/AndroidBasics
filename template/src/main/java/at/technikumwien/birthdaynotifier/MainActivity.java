@@ -1,5 +1,6 @@
 package at.technikumwien.birthdaynotifier;
 
+import android.content.Intent;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -22,8 +23,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Log.i("MainActivity", "Send Button was clicked. Message was: " + message.getText().toString());
-                Snackbar.make(send, message.getText().toString(), Snackbar.LENGTH_LONG).show();
+                //Log.i("MainActivity", "Send Button was clicked. Message was: " + message.getText().toString());
+                //Snackbar.make(send, message.getText().toString(), Snackbar.LENGTH_LONG).show();
+
+                Intent intent = new Intent(MainActivity.this,MessageActivity.class);
+                intent.putExtra("message",message.getText().toString());
+                startActivity(intent);
             }
         });
     }
