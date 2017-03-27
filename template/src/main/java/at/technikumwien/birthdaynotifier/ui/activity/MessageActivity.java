@@ -25,6 +25,8 @@ public class MessageActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.message);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         String message = getIntent().getStringExtra(EXTRA_MESSAGE);
         TextView textView = (TextView) findViewById(R.id.message);
         textView.setText(message);
