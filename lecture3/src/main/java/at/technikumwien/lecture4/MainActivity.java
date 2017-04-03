@@ -1,4 +1,4 @@
-package at.technikumwien.myLecture4;
+package at.technikumwien.lecture4;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;

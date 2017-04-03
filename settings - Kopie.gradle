@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+include ':template', ':helloworld', ':exercise2', ':exercise3', ':myExercise2', ':lecture3', ':myLecture4'
+=======
+include ':template', ':helloworld', ':exercise2', ':exercise3', ':lecture3', ':lecture4'
+>>>>>>> remotes/AndroidBasics_solution/summerterm2017
