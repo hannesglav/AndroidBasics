@@ -1,4 +1,4 @@
-package at.technikumwien.lecture3;
+package at.technikumwien.myLecture4;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
