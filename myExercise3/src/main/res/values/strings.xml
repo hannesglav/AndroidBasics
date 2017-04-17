@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Birthday Notifier</string>
+    <string name="no_contacts">No contacts available.</string>
+</resources>
