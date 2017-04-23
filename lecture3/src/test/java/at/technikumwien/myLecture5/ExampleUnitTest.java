@@ -1,4 +1,4 @@
-package at.technikumwien.lecture4;
+package at.technikumwien.myLecture5;
 
 import org.junit.Test;
 
