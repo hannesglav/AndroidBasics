@@ -28,12 +28,20 @@ public class MyApplication extends Application {
 
         Log.i("MyApplication","started");
 
-        am.setRepeating(
+        am.setExact(
                 AlarmManager.RTC,
-                System.currentTimeMillis() +1,
-                TWO_SECONDS,
+                System.currentTimeMillis() + TWO_SECONDS,
+      //          TWO_SECONDS,
                 pendingIntent
         );
+
+         am.setRepeating(
+                AlarmManager.RTC,
+                System.currentTimeMillis(),
+                TWO_SECONDS,
+                pendingIntent
+         );
+
 
 
     }
