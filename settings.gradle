@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-include ':template', ':helloworld', ':exercise2', ':exercise3', ':myExercise2', ':lecture3', ':myLecture4', ':myExercise3', ':exercise4', ':myLecture5', ':exercise5'
-=======
-include ':template', ':helloworld', ':exercise2', ':exercise3', ':exercise4', ':exercise5', ':lecture3', ':lecture4', ':lecture5', ':lecture6'
->>>>>>> AndroidBasics_solution/summerterm2017
+include ':template', ':helloworld', ':exercise2', ':exercise3', ':myExercise2', ':lecture3', ':myLecture4', ':myExercise3', ':exercise4', ':myLecture5', ':exercise5', ':lecture3', ':lecture4', ':lecture5', ':lecture6'
