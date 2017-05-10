@@ -4,7 +4,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+<<<<<<< HEAD
     tools:context="at.technikumwien.myLecture5.ui.MainActivity"
+=======
+    tools:context="at.technikumwien.lecture5.ui.MainActivity"
+>>>>>>> AndroidBasics_solution/summerterm2017
     android:orientation="vertical">
 
     <android.support.v7.widget.RecyclerView
