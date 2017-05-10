@@ -1,8 +1,5 @@
-<<<<<<< HEAD:lecture4/src/main/java/at/technikumwien/lecture4/ui/MainActivity.java
-package at.technikumwien.myLecture5.ui;
-=======
+
 package at.technikumwien.lecture5.ui;
->>>>>>> AndroidBasics_solution/summerterm2017:lecture4/src/main/java/at/technikumwien/lecture5/ui/MainActivity.java
 
 import android.Manifest;
 import android.content.pm.PackageManager;
@@ -20,15 +17,10 @@ import android.view.View;
 import java.util.Arrays;
 import java.util.List;
 
-<<<<<<< HEAD:lecture4/src/main/java/at/technikumwien/lecture4/ui/MainActivity.java
-import at.technikumwien.myLecture5.R;
-import at.technikumwien.myLecture5.data.Message;
-import at.technikumwien.myLecture5.ui.recyclerview.MessageAdapter;
-=======
+
 import at.technikumwien.lecture5.R;
 import at.technikumwien.lecture5.data.Message;
 import at.technikumwien.lecture5.ui.recyclerview.MessageAdapter;
->>>>>>> AndroidBasics_solution/summerterm2017:lecture4/src/main/java/at/technikumwien/lecture5/ui/MainActivity.java
 
 public class MainActivity extends AppCompatActivity {
 

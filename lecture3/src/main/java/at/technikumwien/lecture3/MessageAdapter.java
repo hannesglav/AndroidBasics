@@ -1,4 +1,4 @@
-package at.technikumwien.lecture5;
+package at.technikumwien.lecture3;
 
 
 import android.support.v7.widget.RecyclerView;

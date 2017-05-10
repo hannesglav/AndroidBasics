@@ -1,8 +1,5 @@
-<<<<<<< HEAD:lecture4/src/test/java/at/technikumwien/lecture4/ExampleUnitTest.java
-package at.technikumwien.myLecture5;
-=======
+
 package at.technikumwien.lecture5;
->>>>>>> AndroidBasics_solution/summerterm2017:lecture4/src/test/java/at/technikumwien/lecture5/ExampleUnitTest.java
 
 import org.junit.Test;
 

@@ -1,8 +1,7 @@
-<<<<<<< HEAD:lecture4/src/androidTest/java/at/technikumwien/lecture4/ExampleInstrumentedTest.java
-package at.technikumwien.myLecture5;
-=======
+
+
 package at.technikumwien.lecture5;
->>>>>>> AndroidBasics_solution/summerterm2017:lecture4/src/androidTest/java/at/technikumwien/lecture5/ExampleInstrumentedTest.java
+
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

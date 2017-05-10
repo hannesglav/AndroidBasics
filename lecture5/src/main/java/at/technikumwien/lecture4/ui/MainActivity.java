@@ -1,10 +1,6 @@
 package at.technikumwien.lecture5.ui;
 
 import android.Manifest;
-import android.app.AlarmManager;
-import android.app.PendingIntent;
-import android.content.Context;
-import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -22,11 +18,8 @@ import java.util.List;
 
 import at.technikumwien.MyApplication;
 import at.technikumwien.lecture5.R;
-import at.technikumwien.lecture5.data.local.ContentResolverEventRepo;
-import at.technikumwien.lecture5.data.local.EventRepo;
 import at.technikumwien.lecture5.data.local.OnDataLoadCallback;
 import at.technikumwien.lecture5.data.model.Event;
-import at.technikumwien.lecture5.receiver.AlarmReceiver;
 import at.technikumwien.lecture5.ui.recyclerview.MessageAdapter;
 
 public class MainActivity extends AppCompatActivity {

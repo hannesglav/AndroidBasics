@@ -1,9 +1,14 @@
-package at.technikumwien.lecture5;
+
+package at.technikumwien.lecture5.ui.recyclerview;
 
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
+
+
+import at.technikumwien.lecture5.R;
+import at.technikumwien.lecture5.data.Message;
 
 public class MessageViewHolder extends RecyclerView.ViewHolder {
 
@@ -17,8 +22,8 @@ public class MessageViewHolder extends RecyclerView.ViewHolder {
         messageTextView = (TextView) itemView.findViewById(R.id.message);
     }
 
-    public void update(String title, String message) {
-        titleTextView.setText(title);
-        messageTextView.setText(message);
+    public void update(Message message) {
+        titleTextView.setText(message.title());
+        messageTextView.setText(message.message());
     }
 }
